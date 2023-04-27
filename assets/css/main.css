@@ -9,7 +9,6 @@
   }
 }
 
-
 .first-menu .navbar {
   background: #000000;
   padding: 0;
@@ -71,7 +70,6 @@
     padding: 0.5rem 0;
   }
 }
-
 
 .second-menu .navbar .nav-item {
   padding: 1.5rem 0;
@@ -151,7 +149,7 @@
 .btn-holder .btn:first-of-type:hover {
   background: #ffffff;
   border: 1px solid #d2ad39;
-  color:#d2ad39;
+  color: #d2ad39;
 }
 
 .btn-holder .btn:last-of-type {
@@ -162,7 +160,35 @@
 .btn-holder .btn:last-of-type:hover {
   background: #ffffff;
   border: 1px solid #24819e;
-  color:#24819e;
+  color: #24819e;
 }
 /* End Banner Actions */
 
+/* Start Count section */
+.count {
+  background: #f5f5f5;
+  padding: 3rem 0;
+}
+
+.count .count-info h4 {
+  color: #24819e;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.count .count-info p {
+  color: #878787;
+}
+.count .border-right {
+  border-right: 1px solid #e2e2e2;
+}
+
+@media (max-width: 992px) {
+  .count .border-right {
+    border-right: 1px solid transparent;
+  }
+}
+
+/* End Count section */
