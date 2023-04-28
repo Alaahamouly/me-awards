@@ -57,7 +57,7 @@
 }
 
 .second-menu .fa {
-  color: #d2ad39;
+  color: #b07c2c;
 }
 
 .second-menu .navbar {
@@ -141,26 +141,26 @@
 }
 
 .btn-holder .btn:first-of-type {
-  background: #d2ad39;
+  background: #b07c2c;
   margin-right: 1rem;
   border: 1px solid transparent;
 }
 
 .btn-holder .btn:first-of-type:hover {
   background: #ffffff;
-  border: 1px solid #d2ad39;
-  color: #d2ad39;
+  border: 1px solid #b07c2c;
+  color: #b07c2c;
 }
 
 .btn-holder .btn:last-of-type {
-  background: #24819e;
+  background: #1b75ba;
   border: 1px solid transparent;
 }
 
 .btn-holder .btn:last-of-type:hover {
   background: #ffffff;
-  border: 1px solid #24819e;
-  color: #24819e;
+  border: 1px solid #1b75ba;
+  color: #1b75ba;
 }
 /* End Banner Actions */
 
@@ -171,7 +171,7 @@
 }
 
 .count .count-info h4 {
-  color: #24819e;
+  color: #1b75ba;
   margin-top: 1rem;
   margin-bottom: 0;
   font-weight: 700;
@@ -192,3 +192,19 @@
 }
 
 /* End Count section */
+
+/* Start about section */
+.about {
+  background: #f8f8f8;
+}
+.about h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 10rem;
+}
+
+.about p {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+/* End about section */
