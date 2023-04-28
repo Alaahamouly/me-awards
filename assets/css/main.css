@@ -1,3 +1,27 @@
+@font-face {
+  font-family: englishFontRegular;
+  src: url("../fonts/NewJune-Regular.otf");
+}
+
+@font-face {
+  font-family: englishFontLight;
+  src: url("../fonts/NewJune-Light.otf");
+}
+
+@font-face {
+  font-family: englishFontBold;
+  src: url("../fonts/NewJune-Bold.otf");
+}
+
+@font-face {
+  font-family: arabicFont;
+  src: url("../fonts/DroidArabicKufi.ttf");
+}
+
+* {
+  font-family: englishFontRegular;
+}
+
 /* Start Header */
 .logo img {
   width: 90%;
@@ -176,8 +200,8 @@
   color: #1b75ba;
   margin-top: 1rem;
   margin-bottom: 0;
-  font-weight: 700;
   font-size: 2.4rem;
+  font-family: englishFontBold;
 }
 
 .count .count-info p {
@@ -199,15 +223,23 @@
 .about {
   background: #f8f8f8;
 }
+
+.about .about-info {
+  padding: 0 6rem 0 0;
+}
+
 .about h3 {
   font-size: 3rem;
   font-weight: 700;
   padding-top: 10rem;
+  font-family: arabicFont;
+
 }
 
 .about p {
-  font-weight: 500;
-  font-size: 1.4rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: arabicFont;
 }
 /* End about section */
 
@@ -219,6 +251,7 @@
 .agenda h2 {
   font-weight: 700;
   font-size: 2.5rem;
+  font-family: arabicFont;
 }
 
 .agenda .agenda-label {
@@ -227,28 +260,33 @@
   height: fit-content;
   padding: 0.3rem 2rem 0.5rem;
   border-radius: 4px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #ffffff;
+  font-family: arabicFont;
 }
 
 .agenda .card-title {
   font-size: 1.4rem;
-  font-weight: 700;
+  font-family: englishFontBold;
+  font-weight: 600;
+
 }
 
 .agenda .card-text {
-  color: #7c7c7c
+  color: #7c7c7c;
 }
 
 .agenda h6.card-title {
   font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .agenda a {
-  font-size: 1.2rem;
+  font-size: 1rem;
   background: #1b75ba;
   border: 1x solid #1b75ba;
+  font-family: arabicFont;
 }
 
 .agenda a i {
