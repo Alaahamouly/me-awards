@@ -22,6 +22,7 @@
 
 .first-menu .navbar .nav-item {
   padding: 1.5rem 0;
+  transition: all 0.2s ease-in-out;
 }
 
 .first-menu .navbar .nav-item:hover {
@@ -73,6 +74,7 @@
 
 .second-menu .navbar .nav-item {
   padding: 1.5rem 0;
+  transition: all 0.2s ease-in-out;
 }
 
 .second-menu .navbar .nav-item:hover {
@@ -208,3 +210,63 @@
   font-size: 1.4rem;
 }
 /* End about section */
+
+/* Start agenda section */
+.agenda {
+  margin-top: 5rem;
+}
+
+.agenda h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.agenda .agenda-label {
+  background: #b07c2c;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.3rem 2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.agenda .card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.agenda .card-text {
+  color: #7c7c7c
+}
+
+.agenda h6.card-title {
+  font-size: 1.2rem;
+}
+
+.agenda a {
+  font-size: 1.2rem;
+  background: #1b75ba;
+  border: 1x solid #1b75ba;
+}
+
+.agenda a i {
+  font-size: 0.8rem;
+}
+
+.agenda .card {
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.agenda .card:hover {
+  background: #f7f7f8;
+  padding: 1rem;
+}
+
+.agenda .card:hover a {
+  background: #b07c2c;
+  border: 1px solid #b07c2c;
+}
+/* End agenda section */
