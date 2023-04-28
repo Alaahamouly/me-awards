@@ -233,7 +233,6 @@
   font-weight: 700;
   padding-top: 10rem;
   font-family: arabicFont;
-
 }
 
 .about p {
@@ -308,3 +307,67 @@
   border: 1px solid #b07c2c;
 }
 /* End agenda section */
+
+/* Start global persons section */
+.global-persons h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 10rem;
+  font-family: arabicFont;
+  width: 60%;
+}
+
+.banner p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: arabicFont;
+  width: 55%;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner .info {
+  position: absolute;
+  left: 10%;
+  top: 20%
+}
+
+@media (max-width: 776px) {
+  .banner .info {
+    left: 5%;
+    top: 2%
+  }
+}
+
+.global-persons .text-container {
+  width: 60%;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.global-persons .text-container p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.global-persons .carousel-indicators {
+  bottom: -160px !important;
+}
+
+
+.global-persons .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #1b75ba;
+  width: 40px;
+}
+/* End global persons section */
+
+@media (max-width: 992px) {
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  p {
+    font-size: 0.8rem !important;
+  }
+}
