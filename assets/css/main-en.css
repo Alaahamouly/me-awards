@@ -1,0 +1,504 @@
+@font-face {
+  font-family: englishFontRegular;
+  src: url("../fonts/NewJune-Regular.otf");
+}
+
+@font-face {
+  font-family: englishFontLight;
+  src: url("../fonts/NewJune-Light.otf");
+}
+
+@font-face {
+  font-family: englishFontBold;
+  src: url("../fonts/NewJune-Bold.otf");
+}
+
+@font-face {
+  font-family: arabicFont;
+  src: url("../fonts/DroidArabicKufi.ttf");
+}
+
+* {
+  font-family: englishFontRegular;
+}
+
+/* Start Header */
+.logo img {
+  width: 90%;
+}
+
+@media (max-width: 992px) {
+  .logo img {
+    width: 40%;
+  }
+}
+
+.first-menu .navbar {
+  background: #000000;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .first-menu .navbar {
+    padding: 0.5rem 0;
+  }
+}
+
+.first-menu .navbar .nav-item {
+  padding: 1.5rem 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.first-menu .navbar .nav-item:hover {
+  background: #ffffff;
+}
+
+.first-menu .navbar .nav-item:hover .nav-link {
+  color: #000000;
+}
+
+.first-menu .navbar .nav-item .nav-link {
+  padding: 0.1rem 0.5rem;
+  border-right: 2px solid #ffffff;
+  color: #ffffff;
+  line-height: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .first-menu .navbar .nav-item .nav-link {
+    border-right: none;
+  }
+}
+
+.first-menu .navbar .nav-item .nav-link.last {
+  border-right: none;
+}
+
+.second-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.second-menu .fa {
+  color: #b07c2c;
+}
+
+.second-menu .navbar {
+  background: #ffffff;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .second-menu .navbar {
+    padding: 0.5rem 0;
+  }
+}
+
+.second-menu .navbar .nav-item {
+  padding: 1.5rem 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.second-menu .navbar .nav-item:hover {
+  background: #f7f5f5;
+}
+
+.second-menu .navbar .nav-item .nav-link {
+  padding: 0.1rem 0.5rem;
+  border-right: 2px solid #000000;
+  color: #000000;
+  line-height: 1;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .second-menu .navbar .nav-item .nav-link {
+    border-right: none;
+  }
+}
+
+.second-menu .navbar .nav-item .nav-link.last {
+  border-right: none;
+}
+/* End Header */
+
+/* Start Banner */
+.banner img {
+  width: 100%;
+}
+/* End Banner */
+
+/* Start Banner Actions */
+
+.banner-actions {
+  background: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 4rem;
+}
+
+@media (max-width: 1200px) {
+  .banner-actions {
+    flex-direction: column;
+  }
+}
+
+.banner-actions p {
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .btn-holder {
+    margin-top: 2rem;
+  }
+}
+
+.btn-holder .btn {
+  width: 150px;
+  color: #ffffff;
+  border-radius: 0px;
+}
+
+.btn-holder .btn:first-of-type {
+  background: #b07c2c;
+  margin-right: 1rem;
+  border: 1px solid transparent;
+}
+
+.btn-holder .btn:first-of-type:hover {
+  background: #ffffff;
+  border: 1px solid #b07c2c;
+  color: #b07c2c;
+}
+
+.btn-holder .btn:last-of-type {
+  background: #1b75ba;
+  border: 1px solid transparent;
+}
+
+.btn-holder .btn:last-of-type:hover {
+  background: #ffffff;
+  border: 1px solid #1b75ba;
+  color: #1b75ba;
+}
+/* End Banner Actions */
+
+/* Start Count section */
+.count {
+  background: #f5f5f5;
+  padding: 3rem 0;
+}
+
+.count .count-info h4 {
+  color: #1b75ba;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 2.4rem;
+  font-family: englishFontBold;
+}
+
+.count .count-info p {
+  color: #878787;
+}
+.count .border-right {
+  border-right: 1px solid #e2e2e2;
+}
+
+@media (max-width: 992px) {
+  .count .border-right {
+    border-right: 1px solid transparent;
+  }
+}
+
+/* End Count section */
+
+/* Start about section */
+.about {
+  background: #f8f8f8;
+}
+
+.about img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.about .about-info {
+  padding: 0 0 0 6rem;
+}
+
+.about h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 10rem;
+  font-family: arabicFont;
+}
+
+.about p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: arabicFont;
+}
+/* End about section */
+
+/* Start agenda section */
+.agenda {
+  margin-top: 5rem;
+}
+
+.agenda h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  font-family: arabicFont;
+}
+
+.agenda .agenda-label {
+  background: #b07c2c;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.3rem 2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: arabicFont;
+}
+
+.agenda .card-title {
+  font-size: 1.4rem;
+  font-family: englishFontBold;
+  font-weight: 600;
+}
+
+.agenda .card-text {
+  color: #7c7c7c;
+}
+
+.agenda h6.card-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.agenda a {
+  font-size: 1rem;
+  background: #1b75ba;
+  border: 1x solid #1b75ba;
+  font-family: arabicFont;
+}
+
+.agenda a i {
+  font-size: 0.8rem;
+}
+
+.agenda .card {
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.agenda .card:hover {
+  background: #f7f7f8;
+  padding: 1rem;
+}
+
+.agenda .card:hover a {
+  background: #b07c2c;
+  border: 1px solid #b07c2c;
+}
+/* End agenda section */
+
+/* Start global persons section */
+.global-persons h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 3rem;
+  font-family: arabicFont;
+  width: 60%;
+}
+
+.banner p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: arabicFont;
+  width: 55%;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner .info {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+
+@media (max-width: 776px) {
+  .banner .info {
+    left: 5%;
+    top: 2%;
+  }
+}
+
+.global-persons .text-container {
+  width: 60%;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.global-persons .text-container p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.global-persons .carousel-indicators {
+  bottom: -160px !important;
+}
+
+.global-persons .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #1b75ba;
+  width: 40px;
+}
+/* End global persons section */
+
+/* Start gallery */
+.gallery .image-container img {
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid #b07c2c;
+  padding: 0.5rem;
+}
+
+.gallery .text-container {
+  text-align: center;
+  padding: 1rem 2.5rem;
+}
+/* End gallery */
+
+/* Start Sectors */
+.sectors h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 3rem;
+  font-family: arabicFont;
+}
+
+.banner-sector p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: arabicFont;
+}
+
+.banner-sector {
+  position: relative;
+}
+
+.banner-sector .info {
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  text-align: right;
+  padding: 0 3rem;
+}
+
+@media (max-width: 1200px) {
+  .banner-sector .info {
+    top: 10% !important;
+  }
+}
+
+.sectors .text-container {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.sectors .text-container p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.sectors .carousel-indicators {
+  bottom: -70px !important;
+}
+
+.sectors .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #1b75ba;
+  width: 40px;
+}
+/* End Sectors */
+
+/* Start Footer */
+.footer {
+  background: #f7f7f8;
+  margin-top: 5rem;
+  padding: 2rem 0 0;
+  direction: ltr;
+}
+
+.footer .links h6 {
+  color: #b07c2c;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: arabicFont;
+}
+
+.footer .links a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+.footer .links a span {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.8rem;
+  font-family: arabicFont;
+}
+
+.footer button {
+  border: 1px solid #1b75ba;
+  padding: 0.4rem 0;
+  width: 100%;
+  border-radius: 4px;
+  background: #1b75ba;
+  color: #ffffff;
+  font-family: arabicFont;
+  font-size: 0.8rem;
+}
+
+.footer input {
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  padding: 0.3rem 0.8rem;
+  color: #000000;
+  font-family: arabicFont;
+  font-size: 0.8rem;
+}
+
+.footer .footer-text {
+  font-family: arabicFont;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.footer .footer-end {
+  color: #ffffff;
+  background: #b07c2c;
+  padding: 0.8rem 0;
+  font-size: 0.6rem;
+}
+/* End Footer */
+
+@media (max-width: 992px) {
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  p {
+    font-size: 0.8rem !important;
+  }
+}
