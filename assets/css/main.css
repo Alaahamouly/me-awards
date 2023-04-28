@@ -269,7 +269,6 @@
   font-size: 1.4rem;
   font-family: englishFontBold;
   font-weight: 600;
-
 }
 
 .agenda .card-text {
@@ -312,7 +311,7 @@
 .global-persons h3 {
   font-size: 3rem;
   font-weight: 700;
-  padding-top: 10rem;
+  padding-top: 3rem;
   font-family: arabicFont;
   width: 60%;
 }
@@ -331,13 +330,13 @@
 .banner .info {
   position: absolute;
   left: 10%;
-  top: 20%
+  top: 20%;
 }
 
 @media (max-width: 776px) {
   .banner .info {
     left: 5%;
-    top: 2%
+    top: 2%;
   }
 }
 
@@ -355,7 +354,6 @@
 .global-persons .carousel-indicators {
   bottom: -160px !important;
 }
-
 
 .global-persons .carousel-dark .carousel-indicators [data-bs-target] {
   background-color: #1b75ba;
@@ -381,7 +379,7 @@
 .sectors h3 {
   font-size: 3rem;
   font-weight: 700;
-  padding-top: 10rem;
+  padding-top: 3rem;
   font-family: arabicFont;
 }
 
@@ -405,7 +403,7 @@
 
 @media (max-width: 1200px) {
   .banner-sector .info {
-    top:10% !important
+    top: 10% !important;
   }
 }
 
@@ -423,15 +421,73 @@
   bottom: -70px !important;
 }
 
-
 .sectors .carousel-dark .carousel-indicators [data-bs-target] {
   background-color: #1b75ba;
   width: 40px;
 }
 /* End Sectors */
 
+/* Start Footer */
+.footer {
+  background: #f7f7f8;
+  margin-top: 5rem;
+  padding: 2rem 0 0;
+  direction: rtl;
+}
 
+.footer .links h6 {
+  color: #b07c2c;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: arabicFont;
+}
 
+.footer .links a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+.footer .links a span {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.8rem;
+  font-family: arabicFont;
+}
+
+.footer button {
+  border: 1px solid #1b75ba;
+  padding: 0.4rem 0;
+  width: 100%;
+  border-radius: 4px;
+  background: #1b75ba;
+  color: #ffffff;
+  font-family: arabicFont;
+  font-size: 0.8rem;
+}
+
+.footer input {
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  padding: 0.3rem 0.8rem;
+  color: #000000;
+  font-family: arabicFont;
+  font-size: 0.8rem;
+}
+
+.footer .footer-text {
+  font-family: arabicFont;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.footer .footer-end {
+  color: #FFFFFF;
+  background: #b07c2c;
+  padding: 0.8rem 0;
+  font-size: 0.6rem;
+}
+/* End Footer */
 
 @media (max-width: 992px) {
   h3 {
