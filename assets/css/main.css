@@ -377,6 +377,59 @@
 }
 /* End gallery */
 
+/* Start Sectors */
+.sectors h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 10rem;
+  font-family: arabicFont;
+}
+
+.banner-sector p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: arabicFont;
+}
+
+.banner-sector {
+  position: relative;
+}
+
+.banner-sector .info {
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  text-align: right;
+  padding: 0 3rem;
+}
+
+@media (max-width: 1200px) {
+  .banner-sector .info {
+    top:10% !important
+  }
+}
+
+.sectors .text-container {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.sectors .text-container p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.sectors .carousel-indicators {
+  bottom: -70px !important;
+}
+
+
+.sectors .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #1b75ba;
+  width: 40px;
+}
+/* End Sectors */
+
 
 
 
